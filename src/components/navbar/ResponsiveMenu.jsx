@@ -19,10 +19,10 @@ const ResponsiveMenu = ({showMenu}) => {
           </div>
       </div>
       <nav className="mt-12">
-          <ul className="space-y-4 text-xl ">
+          <ul className="space-y-4 text-xl cursor-pointer ">
             {Navlinks.map((data,index) => (
               <li key={index}>
-                <a  href={data.link} className="mb-5 inline-block hover:text-primary">
+                <a  href={data.link} className="mb-5 inline-block hover:text-primary cursor-pointer">
                   {data.name}
                 </a>
               </li>

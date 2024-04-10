@@ -81,7 +81,7 @@ const Navbar = ({theme,setTheme}) => {
               {showMenu ? (
                  <IoMdClose
                  onClick={()=>setShowMenu(!showMenu)}
-                 className=" cursor-pointer transition-all text-green-400"
+                 className=" cursor-pointer transition-all text-primary"
                  size={30} />
                 
                 
