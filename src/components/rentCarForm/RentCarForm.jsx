@@ -34,7 +34,7 @@ const RentCarForm = () => {
         </div>
         <div className='flex flex-col w-[80%] p-2 gap-3 '>
        <div className='flex gap-1'>
-         <input type="checkbox"  checked/>
+         <input type="checkbox" />
         <p className='foot-serif text-sm '>Drivers Age at Rental start: 30-65</p></div>
         <button className='rounded-md bg-primary  p-2   text-white  w-[40%] font-bold'>Search</button>
         </div>

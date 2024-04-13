@@ -47,7 +47,7 @@ const Hero = ({ theme }) => {
           </div>
         </div>
       </div>
-      <Modal isOpen={isOpen} onClose={OnClose}>
+      <Modal isOpen={isOpen} OnClose={OnClose}>
        <RentCarForm/>
     </Modal>
     </div>
