@@ -10,6 +10,7 @@ export default {
           200: "#888883",
         },
         dark: "#111111",
+        light: "ffffff"
       },
       container: {
         center: true,
@@ -20,5 +21,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };

@@ -39,7 +39,7 @@ const Navbar = ({theme,setTheme}) => {
     ">
      <div className="flex py-4 justify-between items-center md:mx-5">
       <div className="font-bold text-2xl cursor-pointer flex gap-1 mx-5">
-        RentalCar
+      WheelsOnRent
         <span className='my-2  text-primary text-2xl'>
         <FaCar />
         </span>
