@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import Hero from './Hero/Hero';
 import About from './components/about/About';
 import Services from './components/services/Services';
+import OurServices from './ourServices/OurServices';
 
 const App = () => {
 
@@ -30,7 +31,8 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero theme = {theme}/>
       <About/>
-    <Services/>
+      <Services/>
+      <OurServices/>
     </div>
   )
 }
