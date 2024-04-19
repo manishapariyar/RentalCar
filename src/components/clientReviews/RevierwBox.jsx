@@ -3,7 +3,7 @@ import reviewStar from "../../assets/ReviewerImg/reviewStar.png";
 const RevierwBox = ({name,image,review}) => {
   return (
   <div className='relative inline-block'>
-      <div className=" relative flex flex-col items-center gap-3 md:w-[300px] w-[250px]  bg-white h-[200px] p-6 border-2 border-gray-500 rounded-sm ">
+      <div className=" relative flex flex-col items-center gap-3 md:w-[300px] w-[250px]  bg-white h-[200px] p-4 border-2 border-gray-500 rounded-sm ">
     <div className=" flex flex-row gap-3 ">
       <img src={image} className="w-10 rounded-full h-10" />
       <div className="flex flex-col ml-6">
