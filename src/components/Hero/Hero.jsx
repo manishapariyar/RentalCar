@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import blackCar from "../assets/car.png";
-import blueCar from "../assets/banner-car.png";
-import Modal from "../components/model/Modal";
-import RentCarForm from "../components/rentCarForm/RentCarForm";
+import blackCar from "../../assets/car.png";
+import blueCar from "../../assets/banner-car.png";
+import Modal from "../../components/model/Modal";
+import RentCarForm from "../../components/rentCarForm/RentCarForm";
 
 
 const Hero = ({ theme }) => {

@@ -35,7 +35,7 @@ const Services = () => {
        
         <div className="relative flex items-center ">
           <MdChevronLeft
-            className="opacity-50 cursor-pointer hover:opacity-100"
+            className="opacity-50 cursor-pointer hover:opacity-100 relative"
             size={40}
             onClick={slideLeft}
           />

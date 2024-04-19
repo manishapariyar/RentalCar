@@ -1,5 +1,4 @@
-import React from 'react'
-import whyUs from '../assets/whyUs.jpg'
+
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";

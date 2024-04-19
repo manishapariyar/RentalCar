@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './components/navbar/Navbar'
-import Hero from './Hero/Hero';
+import Hero from './components/Hero/Hero';
 import About from './components/about/About';
 import Services from './components/services/Services';
-import OurServices from './ourServices/OurServices';
+import OurServices from './components/ourServices/OurServices';
+import ClientReviews from './components/clientReviews/ClientReviews';
 
 const App = () => {
 
@@ -27,12 +28,13 @@ const App = () => {
 
  
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden" >
+    <div className="bg-white dark:bg-black dark:text-white text-black overflow-y-hidden" >
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero theme = {theme}/>
       <About/>
       <Services/>
       <OurServices/>
+      <ClientReviews/>
     </div>
   )
 }
