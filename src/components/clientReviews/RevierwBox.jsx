@@ -20,7 +20,7 @@ const RevierwBox = ({name,image,review}) => {
        <p className="text-black font-serif text-xs">
           {name} -
         </p>
-       <p className="text-black self-end text-xs">2024/3/33</p>
+       <p className="text-black self-end text-xs">2024/3/30</p>
        </div>
      </div>
        

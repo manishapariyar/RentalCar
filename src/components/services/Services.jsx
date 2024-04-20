@@ -41,7 +41,7 @@ const Services = () => {
           />
           <div
             id="slider"
-            className="w-full h-full overflow-x-auto whitespace-nowrap overflow-y-hidden scrollbar-hide  mb-4"
+            className="w-full h-full overflow-x-auto whitespace-nowrap overflow-y-hidden scrollbar-hide  mb-4 scroll-smooth"
           >
               {data.map((item) => (
                 
